@@ -1,0 +1,2 @@
+# HushPuppy
+JS notification library
