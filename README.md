@@ -13,7 +13,6 @@ To call a basic hushpuppy, invoke `hushpuppy("Message")`
 
 
 ## Configuration 
-<hr>
 Don't like something about how hushpuppy looks or works?
 Call hushPuppyConfig.[ConfigurationMethod] to make it be different. 
 
@@ -24,7 +23,7 @@ Call hushPuppyConfig.[ConfigurationMethod] to make it be different.
 
 - SetColor("eventType", "red")
     - This one changes the color of specified puppy type
-    
+
 hushPuppyConfig.SetBaseLifespan(5) => How long do all puppys live
 hushPuppyConfig.SetLifespan("eventType", 5) => How long does one type of puppy live
 hushPuppyConfig.SetEnterAnimation("eventType", "enterAnimation") => Set the enter animation of specified event
