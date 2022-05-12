@@ -2,21 +2,29 @@
 
 HushPuppy.js is a simple notification tool. Just add one js file and call puppying. 
 
-To call a basic puppy just invoke puppy("Message")
-Have an important message, call puppy("Message", "warning")
+To call a basic puppy just invoke `puppy("Message")`
+Have an important message, call `puppy("Message", "warning")`
 or
-call puppy.warning("Message")
+call `puppy.warning("Message")`
 
 Every puppy has a life span before it disappears. Want them to leave early? Call a hushpuppy that can be closed early by your user.
 
-To call a basic hushpuppy, invoke hushpuppy("Message")
+To call a basic hushpuppy, invoke `hushpuppy("Message")`
 
+
+## Configuration 
+<hr>
 Don't like something about how hushpuppy looks or works?
-Call hushPuppyConfig.whatyouwanttochange to make it be different. 
+Call hushPuppyConfig.[ConfigurationMethod] to make it be different. 
 
-Options include: 
-hushPuppyConfig.SetBackgroundColor("eventType", "red") => This one changes the background color of specified puppy type
-hushPuppyConfig.SetColor("eventType", "red") => This one changes the color of specified puppy type
+### Options
+
+- SetBackgroundColor("eventType", "red") 
+    - Sets the background color of specified puppy type, i.e. Warning / Success
+
+- SetColor("eventType", "red")
+    - This one changes the color of specified puppy type
+    
 hushPuppyConfig.SetBaseLifespan(5) => How long do all puppys live
 hushPuppyConfig.SetLifespan("eventType", 5) => How long does one type of puppy live
 hushPuppyConfig.SetEnterAnimation("eventType", "enterAnimation") => Set the enter animation of specified event
